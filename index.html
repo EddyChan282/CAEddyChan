@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Eddy Chan - CA2</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<!-- Nav Bar -->
+<body data-spy="scroll" data-target="#navbar-main">
+	<nav id="navbar-main" class="navbar navbar-dark bg-dark px-3 fixed-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand">Eddy Chan</a>
+
+        <ul class="nav nav-pills">  
+          <li class="nav-item">
+            <a class="nav-link bg-dark" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-dark" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-dark" href="#project">Projects</a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link bg-dark" href="#workExp">Work Experience</a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link bg-dark" href="#hobbies">Hobbies</a>
+          </li>
+        </ul>
+      <a class="navbar-brand" href="#contactMe">Contact Me</a>
+		</div>
+	</nav>
+
+  <!--Hero-->
+  <div id="top" class="container-fluid bg-dark">
+   <div class="row text-center">
+       <div class="header-content">
+           <div>
+              <img src="images/Capture.JPG" class="hero">
+           </div>
+           <br>
+           <h1>Eddy Chan</h1>
+           <h3> Tech enthusiast, sofware developer </h3>
+           <p class="icons">
+             <a href="https://www.linkedin.com/in/eddy-chan-289b931a1/" target="_blank"><i class="bi bi-linkedin"></i></a>
+             <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGDRNpqrbMGgMJTgzlrkhpkJBDrWlspczcPSkFXpMHkbhBKNXWfbRrcpzgWVPzSpvLBdq" target="_blank"><i class="bi bi-envelope-at"></i></a>
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infomationModal"> Contact Info </button>
+           </p>
+       </div>
+    </div>
+  </div>
+  
+  <!--Modal for the contact infomation-->
+  <div class="modal" id="infomationModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Contact infomation!</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          - Phone Number - 0871195102
+          <br>
+          - School Email - x00165527@mytudublin.ie
+          <br>
+          - Personal Email - eddychan2822002@gmail.com
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+  <!--About me section -->
+  <section id="aboutMe">
+    <div class="container pt-5b">
+        <div class="row">
+
+          <div class="flip-image">
+            <div class="flip-box-inside">
+              <div class="flip-front">
+                <img class="float-start img-fluid rounded me-2 rounded-circle" src="images/eddy.JPG" width="600" height="400" alt="Gym family">
+              </div>
+              <div class="flip-back">
+                <h2>Some facts about me!</h2>
+                <p>Born on 28/02/2002</p>
+                <p>Can speak 3 languages</p>
+                <p>Favorite game is TF2</p>
+                <p>Favorite artist is 50 cent </p>
+              </div>
+            </div>
+          </div>
+
+					<div class="col-8" id="about">
+            <h1>About me!</h1>
+              <div id="about" class="row">
+                <p> Hello my name is Eddy, I am 20 years old and I am currently studying at TU Dublin Tallaght
+                  and I am studying computer science, I am currently in my final year hoping to graduate in 2023.
+                  My favourite part of computer science has to be software developtment part
+                  and using different languages from my time have used stuff like Java, Python, C#, C++ and I really love learning about them and how they work, 
+                  I have no particular favourite as I think they are all great in their own aspects in my opinion.
+                </p>
+
+                <p>
+                  From February 2022 - August 2022 I worked as an intern at OpenJaw technologies working as a junior software developer mainly working on the backend,
+                  I really enjoyed working there and learned alot during my time there such as using different technologies and getting a nice first 
+                  hand experience to the open world and they operate compared to college.
+                </p>
+
+              </div>
+				  	</div> 
+			</div>
+    </div>
+  </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container pt-5b">
+        <div class="row">
+
+          <div id="educationTallaght" class="row">
+            <h1>Education</h1>
+            <a href="https://www.tudublin.ie/" target="_blank"><img class="tuDublinImage" src="images/tallaght_main_campus.jpg"/></a>
+            <p class="text-center">
+              I attend TU Dublin tallaght which is one of the most popular university in Ireland with over
+              5000 promising students located in the Tallaght campus. It has great infrastrucutre including stuff like lecture halls, labs with computers, canteen,
+              coffee shops, library, football pitch and many more it also offers numerous amounts of transport to get 
+              to the college and offers free parking for cars and bikes. It offers people great
+              oppurtunitys when you take your first step into the campus and your final step out where you learn
+              so much and time flys by and it is an oppurtunity you wont want to miss!. 
+            </p>
+
+            <!--Start of the grades section -->
+            <h2>Grades</h2>
+
+            <div class="container">
+              <div class="row accordion">
+                <div class="col-sm-3 accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                      4th Year
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>Semester</th>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>7</td>
+                            <td>Enterprise Performance Architecture</td>
+                            <td>N/A</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>EAD</td>
+                            <td>N/A</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>Media Design</td>
+                            <td>N/A</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>Machine Learning</td>
+                            <td>N/A</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>Infomation Management</td>
+                            <td>N/A</td>
+                          </tr>
+                          <tr>
+                            <td>7/8</td>
+                            <td>Project</td>
+                            <td>N/A</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      3rd Year
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>Semester</th>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>5</td>
+                            <td>Server Side Web Development</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>Operating Systems</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>Cloud Service & Distrib Comp</td>
+                            <td>C+</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>Big Data Technologies</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>Data Structures & Algorithms</td>
+                            <td>C</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>Data Analysis</td>
+                            <td>C+</td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>Work placement</td>
+                            <td>PASS</td>
+                          </tr> 
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      2nd Year
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>Semester</th>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>3</td>
+                            <td>Software Development 3</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Software Qual Ass & Testing</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Network Fundamentals</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Adv Database Technologies</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Discrete Maths 2</td>
+                            <td>A</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Client Side Web Dev</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Software Development 4</td>
+                            <td>A</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Project</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Routing & Switching Ess</td>
+                            <td>A</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Management Science</td>
+                            <td>A</td>
+                          </tr>     
+                          <tr>
+                            <td>4</td>
+                            <td>Database Admin & Analysis</td>
+                            <td>B</td>
+                          </tr>     
+                          <tr>
+                            <td>4</td>
+                            <td>Infomation Security</td>
+                            <td>B</td>
+                          </tr> 
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      1st Year
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>Semester</th>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Software Development 1</td>
+                            <td>B-</td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>Computer Architecture</td>
+                            <td>A</td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>Visual Design & User Exp</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>Business & Infomation Sys</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>Discrete Maths 1</td>
+                            <td>A</td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>Critical Skills Development</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Software Development 2</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Systems Analysis</td>
+                            <td>B+</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Social Media Communications</td>
+                            <td>B</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Statistics</td>
+                            <td>A</td>
+                          </tr>     
+                          <tr>
+                            <td>2</td>
+                            <td>Database Fundamentals</td>
+                            <td>A</td>
+                          </tr>     
+                          <tr>
+                            <td>2</td>
+                            <td>Operating Syst Fundamentals</td>
+                            <td>B+</td>
+                          </tr>                   
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+    </section>
+
+    <br>
+
+    <!--Project Section -->
+    <section id="project">
+        <div class="container">
+          <div class="row">
+            <h1>Projects</h1>
+
+            <div class="col-4">
+              <h2 class="text-center">2nd Yr Project</h2>
+              <p>For my 2nd year project me and 3 other people worked on a Website using Django similar to a reddit/forum where users could login/signup and create posts and other users
+                could be able to interact with those posts and have discussions and you could also like and reply to other users posts. For the website
+                we also had a merch part, where users could buy merch from us we did this by using stripe payment as the payment.
+              </p>
+            </div>
+
+            <div class="col-4">
+              <h2 class="text-center">3rd Yr Project</h2>
+              <p>
+                For my 3rd year project me and another person worked on a Website using Django, where we created a sweet shop where users could buy candy,
+                sweets,drinks and other junk food using HTML & CSS to create and design the website.
+              </p>
+            </div>
+
+            <div class="col-4">
+              <h2 class="text-center">4th Yr Project</h2>
+              <p> For my 4th year project I am currently working with IBM. The goal of the project is to be able to create a dashboard with graphs 
+                and charts for instances/users to be able to view them when they login into IBMs app id, The graphs/charts will display when a user has a plan
+                with IBM they is either free or paid or it will show when a user logins how much they pay monthly/weekly/yearly on the charts on which 
+                they can filter, For this project I am planning to use stuff like react, nodejs, nosql database and graphing softwares in react. 
+              </p>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    
+    <!-- Work Expierence -->
+    <section id="workExp">
+        <div class="container">
+          <h1 class="pb-4">Work Experenice</h1>
+          <div class="row">
+            <div class="col-5">
+              <a href="https://www.openjawtech.com/" target="_blank"><img class="float-start img-fluid" src="images/openjaw.JPG" width="600" height="400"/></a>
+            </div>
+            <div class="col-7" id="aboutUsTextbox">
+              <div class="row">
+                <p> OpenJaw Technologies - February 2022 - August 2022</p>
+                <p>For my internship I worked at OpenJaw for around 7 Months as a software developer working on the backend stuff,
+                  I would write unit tests, fix bugs, deploy, code reviews, daily standups and much more during my time at OpenJaw 
+                  I learned alot during my time there and grateful for everyone that helped me.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-5">
+              <a href="https://essence-pattisserie-dundrum.business.site/" target="_blank"><img class="float-start img-fluid" src="images/workepd.JPG" width="600" height="400"/></a>
+            </div>
+        
+            <div class="col-7" id="aboutUsTextbox">
+              <div class="row">
+                <p>Essence Coffee Shop - May 2017 - August 2017</p>
+                <p>Worked as a server, taking peoples orders and giving out their food.</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-5">
+              <a href="https://chinahouse.ie/?utm_source=GMBwebsite&utm_medium=organic&utm_campaign=Google%20My%20Business" target="_blank"><img class="float-start img-fluid" src="images/ChinaHouse.JPG" width="600" height="400"/></a>
+            </div>        
+            <div class="col-7" id="aboutUsTextbox">
+              <div class="row">
+                <p>China House - October 2021 - Present</p>
+                <p>Worked at the counter at a takeaway, taking peoples orders over the phone and face to face.</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+    </section>
+
+    <!--Hobbies/Interests-->
+    <section id="hobbies" class="pt-5 pb-5"> 
+          <div class="container">
+            <h1>Hobbies/Interests</h1>
+            <div class="row pt-4">
+    
+              <div class="col-4 text-center">
+                <div class="card h-100">
+                  <img class="card-img-top" src="images/football.JPG" style="height:100%">
+                  <div class="card-body">
+                    <h5 class="card-title">Football</h5>
+                    <p class="card-text">I enjoy watching football alot</p>
+                    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#footballModal">
+                      More info!
+                    </button> 
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-4 text-center">
+                <div class="card h-100">
+                  <img class="card-img-top" src="images/ufc.JPG" style="height:100%">
+                  <div class="card-body">
+                    <h5 class="card-title">UFC</h5>
+                    <p class="card-text">I love watching the UFC aswell espically youtube clips</p>
+                    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ufcModal">
+                      More info!
+                    </button> 
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-4 text-center">
+                <div class="card h-100">
+                  <img class="card-img-top" src="images/cooking.JPG" style="height:100%">
+                  <div class="card-body">
+                    <h5 class="card-title">Hobbies</h5>
+                    <p class="card-text">I enjoy cooking as a hobby</p>
+                    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#cookingModal">
+                      More info!
+                    </button> 
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Football Modal -->
+            <div class="modal fade" id="footballModal">
+              <div class="modal-dialog">
+                <div class="modal-content text-dark">
+                  <div class="modal-header">
+                    <h5 class="modal-title">More info!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <li>My favorite team is Manchester United</li>
+                    <li>My favorite player is Messi</li>
+                    <li>I enjoy watching the Premier league and Champions league</li>
+                    <li>I think Manchester United will the champions league in next 5 years!</li>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- UFC Modal -->
+            <div class="modal fade" id="ufcModal">
+              <div class="modal-dialog">
+                <div class="modal-content text-dark">
+                  <div class="modal-header">
+                    <h5 class="modal-title">More info!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <li>My favorite fighter is Jon Jones</li>
+                    <li>I got into UFC from McGregor</li>
+                    <li>I enjoy the Muy Thai side of UFC</li>
+                    <li>Also the press conferences I also enjoy watching</li>
+                  </div>
+                
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+
+            <!-- Cooking Modal -->
+            <div class="modal fade" id="cookingModal">
+              <div class="modal-dialog">
+                <div class="modal-content text-dark">
+                  <div class="modal-header">
+                    <h5 class="modal-title">More info!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <li>I like cooking in my spare time</li>
+                    <li>I love making chinese food and pasta</li>
+                    <li>I learn cooking from my Mum and Youtube videos</li>
+                    <li>My favorite dish has to be dumping soup</li>
+                  </div>
+                
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+    </section>
+
+    <section id="contactMe">
+      <div class="container">
+        <h1>Contact Me!</h1>
+        <form>
+
+          <div class="pt-3">
+            <input type="Name" class="form-control"  placeholder="Name" name="name">
+          </div>
+
+          <div class="pt-3">
+            <input type="Phone" class="form-control" placeholder="Phone" name="phone">
+          </div>
+
+          <div class="pt-3">
+            <input type="email" class="form-control" placeholder="Enter email" name="email">
+          </div>
+
+          <div class="pt-3 pb-3">
+            <textarea class="form-control" rows="10" name="text" placeholder="Enter Message"></textarea>
+          </div>
+
+        </form>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contact">
+          Submit
+        </button> 
+
+      </div>
+
+      <!-- Cooking Modal -->
+      <div class="modal fade" id="contact">
+        <div class="modal-dialog">
+          <div class="modal-content text-dark">
+            <div class="modal-header">
+              <h5 class="modal-title">Message</h5>
+              <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <li>Thank you contacting me! I will get back to you ASAP.</li>
+            </div>
+          
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+      </div>
+    </section>
+    <br>
+
+    <footer class="footer bg-dark text-center"> 
+      © Eddy Chan
+    </footer>
+</body>
